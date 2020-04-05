@@ -1,6 +1,20 @@
 {"author": "cubicrootxyz, septerra", "copyright": "Licensed under CC-BY-NC", "data": 
 {
 "Baden-Württemberg": {"name": "Landesverband Baden-Württemberg", "shorthandle": "LVBW", "prm": "BW", "web": "www.piratenpartei-bw.de"},
-"Bayern": {"name": "Landesverband Bayern", "shorthandle": "LVBY", "prm": "BY", "web": "www.piratenpartei-bayern.de"}
+"Bayern": {"name": "Landesverband Bayern", "shorthandle": "LVBY", "prm": "BY", "web": "www.piratenpartei-bayern.de"},
+"Berlin": {"name": "Landesverband Berlin", "shorthandle": "LVBE", "prm": "BE", "web": "www.piratenpartei.berlin"},
+"Brandenburg": {"name": "Landesverband Brandenburg", "shorthandle": "LVBB", "prm": "BB", "web": "www.piratenbrandenburg.de"},
+"Bremen": {"name": "Landesverband Bremen", "shorthandle": "LVHB", "prm": "HB", "web": "piratenpartei-bremen.de"},
+"Hamburg": {"name": "Landesverband Hamburg", "shorthandle": "LVHH", "prm": "HH", "web": "piratenpartei-hamburg.de"},
+"Hessen": {"name": "Landesverband Hessen", "shorthandle": "LVHE", "prm": "HE", "web": "www.piratenpartei-hessen.de"},
+"Mecklenburg-Vorpommern": {"name": "Landesverband Mecklenburg-Vorpommern", "shorthandle": "LVMV", "prm": "MV", "web": "piratenpartei-mv.de"},
+"Niedersachsen": {"name": "Landesverband Niedersachsen", "shorthandle": "LVNI", "prm": "NI", "web": "piraten-nds.de"},
+"Nordrhein-Westfalen": {"name": "Landesverband Nordrhein-Westfalen", "shorthandle": "LVNW", "prm": "NW", "web": "www.piratenpartei-nrw.de"},
+"Rheinland-Pfalz": {"name": "Landesverband Rheinland-Pfalz", "shorthandle": "LVRP", "prm": "RP", "web": "www.piraten-rlp.de"},
+"Saarland": {"name": "Landesverband Saarland", "shorthandle": "LVSL", "prm": "SL", "web": "piraten.saarland"},
+"Sachsen": {"name": "Landesverband Sachsen", "shorthandle": "LVSN", "prm": "SN", "web": "piraten-sachsen.de"},
+"Sachsen-Anhalt": {"name": "Landesverband Sachsen-Anhalt", "shorthandle": "LVST", "prm": "ST", "web": "piraten-lsa.de"},
+"Schleswig-Holstein": {"name": "Landesverband Schleswig-Holstein", "shorthandle": "LVSH", "prm": "SH", "web": "landesportal.piratenpartei-sh.de"},
+"Thüringen": {"name": "Landesverband Thüringen", "shorthandle": "LVTH", "prm": "TH", "web": "piraten-thueringen.de"}
 }
 }
