@@ -1,5 +1,7 @@
 {"author": "cubicrootxyz, septerra", "copyright": "Licensed under CC-BY-NC", "data": 
 {
-"Regierungsbezirk Stuttgart": {"name": "Bezirksverband Baden-Württemberg", "shorthandle": "BZVS", "prm": "BW.S", "web": "www.piraten-bzv-stuttgart.de"}
+"Regierungsbezirk Freiburg": {"name": "Bezirksverband Freiburg", "shorthandle": "BZVFR", "prm": "BW.FR", "web": "bzv-fr.piratenpartei-bw.de/"},
+"Regierungsbezirk Stuttgart": {"name": "Bezirksverband Stuttgart", "shorthandle": "BZVS", "prm": "BW.S", "web": "www.piraten-bzv-stuttgart.de"},
+"Regierungsbezirk Tübingen": {"name": "Bezirksverband Südwürttemberg", "shorthandle": "BZVTUE", "prm": "BW.TÜ", "web": "www.piraten-suedwuerttemberg.de"}
 }
 }
