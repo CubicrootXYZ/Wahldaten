@@ -59,7 +59,7 @@ for index,row in data.iterrows():
     if not math.isnan(row[0]):
 
         try:
-            data_json["data"][str(int(row[7]))] = {"gemeinde": str(row[8]), "gemeinde_schluessel": str(int(row[2])), "gemeinde_schluessel_bundeseinheitlich": str(int(row[5])), "wahlkreis_bezeichnung": data2["data"][str(row[8])]["wahlkreis_bezeichnung"], "wahlkreis_nummer": data2["data"][str(row[8])]["wahlkreis_nummer"], "kreis": data2["data"][str(row[8])]["kreis"], "kreis_schluessel": data2["data"][str(row[8])]["kreis_schluessel"]}
+            data_json["data"][str(int(row[7]))] = {"gemeinde": str(row[8]), "gemeinde_schluessel": str(int(row[2])), "gemeinde_schluessel_bundeseinheitlich": str(int(row[5])), "wahlkreis_bezeichnung": data2["data"][str(row[8])]["wahlkreis_bezeichnung"], "wahlkreis_nummer": data2["data"][str(row[8])]["wahlkreis_nummer"], "kreis": data2["data"][str(row[8])]["kreis"], "kreis_schluessel": data2["data"][str(row[8])]["kreis_schluessel"], "bezirk": "Regierungsbezirk "+str((row[21]))}
         except:
             print(str(row[8]))
 
