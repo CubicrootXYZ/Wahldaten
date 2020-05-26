@@ -6,7 +6,7 @@ import math
 import json
 
 # you might want to switch to the directory this file is located in manually
-os.chdir("D://github_repos/Wahldaten/Landtagswahlen/Wahlkreise")
+os.chdir("YOURPATH/Wahldaten/Landtagswahlen/Wahlkreise")
 
 # make dicts
 data_json = {'copyright': "Daten wurden mir durch das Innenministerium BaWü von der Landeswahlleiterin BaWü überlassen. Dabei gab es keine Angaben zu Lizenz oder Nutzungbeschränkungen.", "status": "05.03.2020", "data": {}}
@@ -59,7 +59,7 @@ for index,row in data.iterrows():
     if not math.isnan(row[0]):
 
         try:
-            data_json["data"][str(int(row[7]))] = {"gemeinde": str(row[8]), "gemeinde_schluessel": str(int(row[2])), "gemeinde_schluessel_bundeseinheitlich": str(int(row[5])), "wahlkreis_bezeichnung": data2["data"][str(row[8])]["wahlkreis_bezeichnung"], "wahlkreis_nummer": data2["data"][str(row[8])]["wahlkreis_nummer"], "kreis": data2["data"][str(row[8])]["kreis"], "kreis_schluessel": data2["data"][str(row[8])]["kreis_schluessel"]}
+            data_json["data"][str(int(row[7]))] = {"gemeinde": str(row[8]), "gemeinde_schluessel": str(int(row[2])), "gemeinde_schluessel_bundeseinheitlich": str(int(row[5])), "wahlkreis_bezeichnung": data2["data"][str(row[8])]["wahlkreis_bezeichnung"], "wahlkreis_nummer": data2["data"][str(row[8])]["wahlkreis_nummer"], "kreis": data2["data"][str(row[8])]["kreis"], "kreis_schluessel": data2["data"][str(row[8])]["kreis_schluessel"], "bezirk": "Regierungsbezirk "+str((row[21]))}
         except:
             print(str(row[8]))
 
